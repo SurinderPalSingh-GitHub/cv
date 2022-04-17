@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <h2><p>Contact Me:</p></h2>
+    <form action="mailto:kamalsp8915@gmail.com" method="post" enctype="text/plain">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Full name" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" id="date" min="2022-02-17" max="2024-02-17"/>
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="7" max="200" step="1" />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="checkbox">Preferences:</label>
+        <div>
+          <label for="Apple" id="checkbox">Apple</label>
+          <input type="checkbox" name="checkbox" id="Apple" />
+          <label for="Samsung">Samsung</label>
+          <input type="checkbox" name="checkbox" id="Samsung" />
+          <label for="Oppo">Oppo</label>
+          <input type="checkbox" name="checkbox" id="Oppo" />
+        </div>
+      </div>
+      <div>
+        Choose a model:
+        <div>
+          <label for="iphone">iPhone</label>
+          <input type="radio" name="choice" id="iphone" />
+          <label for="galaxy">Galaxy</label>
+          <input type="radio" name="choice" id="galaxy" />
+          <label for="a15s">A15s</label>
+          <input type="radio" name="choice" id="a15s" />
+        </div>
+      </div>
+      <div>
+        <label for="file">File:</label>
+        <input type="file" name="file" id="file">
+      </div>
+      <div>
+        <label for="bio">Bio:</label>
+        <div>
+          <textarea name="write" id="bio" cols="20" rows="5"></textarea>
+        </div>
+      </div>
+      <div>
+        <label for="select">Brand:</label>
+        <select name="brand" id="select">
+          <option value="Apple">Apple</option>
+          <option value="Samsung">Samsung</option>
+          <option value="Oppo">Oppo</option>
+        </select>
+      </div>
+      <div>
+        Gender:
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male">
+
+        </div>
+        <div>
+
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female">
+        </div>
+        </label>
+      </div>
+      <div>
+        <label for="color">Select Color:</label>
+        <input type="color" name="color" id="color">
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <div>
+        <label for="url">Url:</label>
+        <input type="url" name="url" id="url">
+      </div>
+      <div>
+        <label for="range">Range:</label>
+        <input type="range" name="rangeoftime" id="range">
+      </div>
+      <div>
+        <input type="reset" value="Reset it" />
+        <input type="submit" name="submit" id="sub" value="Submit it" />
+      </div>
+    </form>
+    <div>
+      <a href="index.html">Back to home</a>
+    </div>
+  </body>
+</html>
